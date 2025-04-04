@@ -23,6 +23,16 @@ main {
     
 }
 
+div#fundo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 620px;
+    width: 304px;
+    border-radius: 50px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.37);
+}
 section#telefone {
     position: absolute;
     top: 50%;
